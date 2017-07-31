@@ -15,7 +15,7 @@
                 <h1>FAKE LMS</h1>
                 <p>Attention, g&eacute;n&eacute;ralement seule les fichiers commencant par P et E sont des fichiers de s&eacute;quence SCORM sur le SPI.<br>
                 ATTENTION, si les s&eacute;quences sont configur&eacute;es pour n'envoyer leurs r&eacute;sultats qu'au moment o&ugrave; l'apprenant quitte la page, alors vous risquez de ne pas voir apparaitre la popup de debug qui remplace l'enregistrement d'un vrai LMS.</p>
-                <form action="?" method="get">
+                <form action="?t={{t}}" method="get">
                     <select id="scorm_seq_file" name="scorm_seq_file">
                         {{scorm_list}}
                     </select>
