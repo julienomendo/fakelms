@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="Quiz_politique_commerciale" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">Quiz_politique commerciale</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="Quiz_politique_commerciale_ORG">
+    <organization identifier="Quiz_politique_commerciale_ORG">
+      <title>Quiz_politique commerciale</title>
+      <item identifier="Quiz_politique_commerciale_SCO" isvisible="true" identifierref="_Quiz_politique_commerciale_RES">
+        <title>Quiz_politique commerciale</title>
+        <adlcp:masteryscore>10</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="_Quiz_politique_commerciale_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="quiz.swf" />
+      <file href="quiz_content/data.swf" />
+      <file href="quiz_content/Shape00ca788e-660b-4726-939f-2e532bf4039c.swf" />
+      <file href="quiz_content/Shape059210eb-d10b-4aeb-b0bb-0d9fdff23bf7.swf" />
+      <file href="quiz_content/Shape15f523f5-3fd0-4f1e-a9f7-38728109ea61.swf" />
+      <file href="quiz_content/Shape176b6f6e-b641-4d72-ad0c-9379c4c395eb.swf" />
+      <file href="quiz_content/Shape2338aa8f-c20f-4297-877c-d1c595c91e2e.swf" />
+      <file href="quiz_content/Shape2f906a14-65a0-43b0-b163-1ad4ebdff632.swf" />
+      <file href="quiz_content/Shape30327350-b08a-45a7-90a1-aa5b96a0a412.swf" />
+      <file href="quiz_content/Shape3a202dbf-ff3d-4cf5-a8d3-582d73c0747e.swf" />
+      <file href="quiz_content/Shape48afa35b-831b-4877-ba86-170ba2ede132.swf" />
+      <file href="quiz_content/Shape4e7ba2ab-d8f7-413d-9b6a-9c09171ba7bf.swf" />
+      <file href="quiz_content/Shape55ad2e9b-b855-476b-9b0a-d88ee17c4573.swf" />
+      <file href="quiz_content/Shape58b558ed-5182-4451-8530-b7ec0f4a225d.swf" />
+      <file href="quiz_content/Shape780b7ae9-f82c-4c29-a8b5-1c3960c66014.swf" />
+      <file href="quiz_content/Shape7c43271e-dc4d-43bd-b687-6f7e3fd0db70.swf" />
+      <file href="quiz_content/Shape9942066f-5cdb-4764-88d8-eab69cac98f6.swf" />
+      <file href="quiz_content/Shape9b58e577-1164-4ef0-ab39-05566448fd74.swf" />
+      <file href="quiz_content/Shapebb585424-5d6b-42f5-8871-3eb22cc93637.swf" />
+      <file href="quiz_content/Shapebeae272f-766d-450c-ba28-e02b384638e1.swf" />
+      <file href="quiz_content/Slide455eeb96-9383-4b6a-b6df-c0d159c18054.swf" />
+      <file href="quiz_content/video_0b6b6ffc-7c34-42a6-852d-9330932f791f.swf" />
+      <file href="quiz_content/video_165aac71-afd0-4e8c-9018-0c7d71865003.swf" />
+      <file href="quiz_content/video_1cff21ac-6b25-4c63-90d5-215e32da15db.swf" />
+      <file href="quiz_content/video_2e911625-adc0-4cf4-859c-4586776f1225.swf" />
+      <file href="quiz_content/video_aefdbf61-7d60-4b97-b372-e2e822eb1f80.swf" />
+      <file href="quiz_content/video_b2354054-7c68-4e3d-bbab-de84cb5c9e1d.swf" />
+      <file href="quiz_content/video_bd6116ef-09a4-438d-b75e-ff097b938fae.swf" />
+      <file href="quiz.html" />
+      <file href="quiz_content/blank.html" />
+      <file href="quiz_content/quiz.js" />
+      <file href="quiz_content/zoom.html" />
+      <file href="index_lms.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/AICCFunctions.js" />
+      <file href="lms/API.js" />
+      <file href="lms/APIConstants.js" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/Configuration.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/lms.js" />
+      <file href="lms/LMSAPI.js" />
+      <file href="lms/NONEFunctions.js" />
+      <file href="lms/old_goodbye.html" />
+      <file href="lms/SCORM2004Functions.js" />
+      <file href="lms/SCORMDiscovery.js" />
+      <file href="lms/SCORMFunctions.js" />
+      <file href="lms/UtilityFunctions.js" />
+    </resource>
+  </resources>
+</manifest>

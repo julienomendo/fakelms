@@ -1,0 +1,63 @@
+<site title="Mix-marketing : produit et prix" menu="false" assetPath="assets/" flow="preload">
+  <page id="charte" title="charte_p04" src="common/charte.swf" package="common">
+    <asset id="sonNoPreload" src="SonsNoPreload.swf" />
+    <!--page id="introCMA"  title="introModule_5" src="common/introModule.swf" menu="true" package="common">
+		<asset id="objectifs" src="common/introModule.xml" />
+		<asset id="son1" src="s3/sons/p4_m1_s3_l1_e1_son1_fr.mp3" preload="false" />		
+	</page>
+    <page id="introSequence"  title="introSequence" src="common/introSequence.swf" menu="true" package="common">
+		<asset id="objectifs" src="common/introSequence3.xml" />
+		<asset id="son1" src="s3/sons/p4_m1_s3_l1_e1_son2_fr.mp3" preload="false" />		
+	</page-->
+    <page id="nav"  title="navigation" src="common/nav.swf" depth="top" menu="true" package="common">
+		<asset id="menu" title="menu" src="menu.swf"/>
+	
+											<!--<SEQUENCE 3  Mix-marketing : produit et prix  >-->
+	
+	  <page id="sequence3" title="La gamme" src="common/chapitre.swf" menu="true" package="common">				
+			<page id="p4_m1_s3_l1_e2" title="Rappel : le mix marketing" src="s3/p4_m1_s3_l1_e2.swf" menu="true" package="s3">		</page>
+			<page id="p4_m1_s3_l1_e3" title="Un produit en langage commercial, c’est :" src="s3/p4_m1_s3_l1_e3.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l1_e4" title="Dimension d'une gamme de produit" src="s3/p4_m1_s3_l1_e4.swf" menu="true" package="s3">
+				<asset id="son1" src="s3/sons/p4_m1_s3_l1_e4_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s3_l1_e5" title="Avantages d'une gamme large / réduite" src="s3/p4_m1_s3_l1_e5.swf" menu="true" package="s3">
+					<asset id="popup1" src="s3/popup/popup_s3_l1_e5.swf"/>
+			</page>
+			<page id="p4_m1_s3_l1_e6" title="A votre avis" src="s3/p4_m1_s3_l1_e6.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l1_e7" title="La matrice produit client" src="s3/p4_m1_s3_l1_e7.swf" menu="true" package="s3"></page>
+	  </page>
+      <page id="sequence3_b" title="Les produits" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s3_l2_e1" title="Les cycles de vie d'un produit" src="s3/p4_m1_s3_l2_e1.swf" menu="true" package="s3">
+				<asset id="son1" src="s3/sons/p4_m1_s3_l2_e1_son1_fr.mp3" preload="false" />
+				<asset id="son2" src="s3/sons/p4_m1_s3_l2_e1_son2_fr.mp3" preload="false" />
+				<asset id="popup1" src="s3/popup/popup_s3_l2_e1.swf"/>
+			</page>
+			<page id="p4_m1_s3_l2_e2" title="Les cycles de vie d'un produit 2" src="s3/p4_m1_s3_l2_e2.swf" menu="true" package="s3">
+				<asset id="son1" src="s3/sons/p4_m1_s3_l2_e2_son1_fr.mp3" preload="false" />
+			</page> 
+			<page id="p4_m1_s3_l2_e3" title="Stratégie d'entreprise" src="s3/p4_m1_s3_l2_e3.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l2_e4" title="Stratégie d'entreprise 2" src="s3/p4_m1_s3_l2_e4.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l2_e5" title="Synthèse" src="s3/p4_m1_s3_l2_e5.swf" menu="true" package="s3"></page>
+      </page>
+	  <page id="sequence3_c" title="Le prix" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s3_l3_e1" title="Les décisions à prendre en fonction du cycle de vie" src="s3/p4_m1_s3_l3_e1.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l3_e2" title="A votre avis" src="s3/p4_m1_s3_l3_e2.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l3_e3" title="Le prix psychologique" src="s3/p4_m1_s3_l3_e3.swf" menu="true" package="s3">	
+				<asset id="popup1" src="s3/popup/popup_s3_l3_e3.swf"/>
+			</page>
+			<page id="p4_m1_s3_l3_e4" title="Analyser les prix pratiqués par la concurrence" src="s3/p4_m1_s3_l3_e4.swf" menu="true" package="s3">
+					<asset id="son1" src="s3/sons/p4_m1_s3_l3_e4_son1_fr.mp3" preload="false" />
+					<asset id="popup1" src="s3/popup/popup_s3_l3_e4.swf"/>
+			</page>
+			<page id="p4_m1_s3_l3_e5" title="Le coût de revient" src="s3/p4_m1_s3_l3_e5.swf" menu="true" package="s3">	
+					<asset id="son1" src="s3/sons/p4_m1_s3_l3_e5_son1_fr.mp3" preload="false" />
+					<asset id="popup1" src="s3/popup/popup_s3_l3_e5.swf"/>
+			</page>
+			<page id="p4_m1_s3_l3_e6" title="Prendre des décisions commerciales" src="s3/p4_m1_s3_l3_e6.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l3_e7" title="Récapitulons" src="s3/p4_m1_s3_l3_e7.swf" menu="true" package="s3">	</page>
+			<page id="p4_m1_s3_l3_e8" title="Synthèse" src="s3/p4_m1_s3_l3_e8.swf" menu="true" package="s3">	</page>
+			<page id="p4_m1_s3_l3_e9" title="Fin de la séquence" src="s3/p4_m1_s3_l3_e9.swf" menu="true" package="s3">	</page>
+		</page>
+    </page>
+  </page>
+</site>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.5 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-3EE12220599294E7A941FEF6DE18E69F" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <organizations default="ORG-5A115F9694AD88554AE02F4545A99A56">
+    <organization identifier="ORG-5A115F9694AD88554AE02F4545A99A56" structure="hierarchical">
+      <title>Définir une politique commerciale</title>
+      <item identifier="ITEM-7D87E952B1115E8D41BD1F0678A84D6E" isvisible="true" identifierref="RES-499141AAC205269D0BB9DE5F4ADDC025">
+        <title>De l'étude de marché à la politique commerciale</title>
+      </item>
+      <item identifier="ITEM-87644C1DAA5FA2D13AB0E40CC0450BCD" isvisible="true" identifierref="RES-AE4930D8326B33558FC6B9EA3809E434">
+        <title>La cible</title>
+      </item>
+      <item identifier="ITEM-83DE7EACF396E617F4A1DED8FD2D2691" isvisible="true" identifierref="RES-1FF7987440577FF6CEEA4F681A32B465">
+        <title>Mix-marketing : produit et prix</title>
+      </item>
+      <item identifier="ITEM-4309B1324827D585DE264CEC9A304B1E" isvisible="true" identifierref="RES-9C6915ECAD70E3BF4713BC7B6CC05059">
+        <title>Mix-Marketing : Distribution et Communication</title>
+      </item>
+      <item identifier="ITEM-5D173D0EEA4C6BEEC554100294A209C2" isvisible="true" identifierref="RES-E37B5579656FC7C3655095AB767E666F">
+        <title>Quiz politique commerciale</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-499141AAC205269D0BB9DE5F4ADDC025" type="webcontent" href="p04_m1_s1.html" adlcp:scormtype="sco">
+      <file href="p04_m1_s1.html" />
+      <file href="js/swfobject.js" />
+      <file href="tracking/Scorm12Tracking.js" />
+      <file href="tracking/Tracking.js" />
+    </resource>
+    <resource identifier="RES-AE4930D8326B33558FC6B9EA3809E434" type="webcontent" href="p04_m1_s2.html" adlcp:scormtype="sco">
+      <file href="p04_m1_s2.html" />
+      <file href="js/swfobject.js" />
+      <file href="tracking/Scorm12Tracking.js" />
+      <file href="tracking/Tracking.js" />
+    </resource>
+    <resource identifier="RES-1FF7987440577FF6CEEA4F681A32B465" type="webcontent" href="p04_m1_s3.html" adlcp:scormtype="sco">
+      <file href="p04_m1_s3.html" />
+      <file href="js/swfobject.js" />
+      <file href="tracking/Scorm12Tracking.js" />
+      <file href="tracking/Tracking.js" />
+    </resource>
+    <resource identifier="RES-9C6915ECAD70E3BF4713BC7B6CC05059" type="webcontent" href="p04_m1_s4.html" adlcp:scormtype="sco">
+      <file href="p04_m1_s4.html" />
+      <file href="js/swfobject.js" />
+      <file href="tracking/Scorm12Tracking.js" />
+      <file href="tracking/Tracking.js" />
+    </resource>
+    <resource identifier="RES-E37B5579656FC7C3655095AB767E666F" type="webcontent" href="p04_m1_s5/index_lms.html" adlcp:scormtype="sco">
+      <file href="p04_m1_s5/index_lms.html" />
+      <file href="p04_m1_s5/lms/AICCComm.html" />
+      <file href="p04_m1_s5/lms/AICCFunctions.js" />
+      <file href="p04_m1_s5/lms/API.js" />
+      <file href="p04_m1_s5/lms/APIConstants.js" />
+      <file href="p04_m1_s5/lms/blank.html" />
+      <file href="p04_m1_s5/lms/browsersniff.js" />
+      <file href="p04_m1_s5/lms/Configuration.js" />
+      <file href="p04_m1_s5/lms/LMSAPI.js" />
+      <file href="p04_m1_s5/lms/NONEFunctions.js" />
+      <file href="p04_m1_s5/lms/SCORM2004Functions.js" />
+      <file href="p04_m1_s5/lms/SCORMFunctions.js" />
+      <file href="p04_m1_s5/lms/UtilityFunctions.js" />
+    </resource>
+  </resources>
+</manifest>
+

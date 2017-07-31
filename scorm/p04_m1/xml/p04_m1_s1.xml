@@ -1,0 +1,56 @@
+﻿<site title="De l'étude de marché à la politique commerciale" menu="false" assetPath="assets/" flow="preload">
+  <page id="charte" title="charte_p04" src="common/charte.swf" package="common">
+    <asset id="sonNoPreload" src="SonsNoPreload.swf" />
+    <!--page id="introCMA"  title="introModule_5" src="common/introModule.swf" menu="true" package="common">
+		<asset id="objectifs" src="common/introModule.xml" />
+		<asset id="son1" src="s1/sons/p04_m1_s1_l1_e1_son1_fr.mp3" preload="false" />		
+	</page>
+    <page id="introSequence"  title="introSequence" src="common/introSequence.swf" menu="true" package="common">
+		<asset id="objectifs" src="common/introSequence1.xml" />
+		<asset id="son1" src="s1/sons/p04_m1_s1_l1_e1_son2_fr.mp3" preload="false" />		
+	</page-->
+    <page id="nav"  title="navigation" src="common/nav.swf" depth="top" menu="true" package="common">
+		<asset id="menu" title="menu" src="menu.swf"/>
+	
+											<!--<SEQUENCE 1  De l'étude de marché à la politique commerciale  >-->
+		
+	  <page id="sequence1" title="De l'étude de marché à la politique commerciale" src="common/chapitre.swf" menu="true" package="common">				
+			<page id="p4_m1_s1_l1_e2" title="Le contexte de l'offre de la demande" src="s1/p4_m1_s1_l1_e2.swf" menu="true" package="s1">
+				<asset id="son1" src="s1/sons/p4_m1_s1_l1_e2_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s1_l1_e3" title="Rappel : les composants de l'étude de marché" src="s1/p4_m1_s1_l1_e3.swf" menu="true" package="s1">
+				<asset id="son1" src="s1/sons/p4_m1_s1_l1_e3_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s1_l1_e4" title="Définition de marché " src="s1/p4_m1_s1_l1_e4.swf" menu="true" package="s1">
+				<asset id="popup1" src="s1/popup/popup_s1_l1_e4.swf"/>
+			</page>
+			<page id="p4_m1_s1_l1_e5" title="Définition de la concurrence" src="s1/p4_m1_s1_l1_e5.swf" menu="true" package="s1">
+				<asset id="popup1" src="s1/popup/popup_s1_l1_e5.swf"/>
+			</page>
+	  </page>
+      <page id="sequence1_b" title="Rappel étude de marché globale / locale" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s1_l2_e1" title="Les deux niveaux de l’étude de marché" src="s1/p4_m1_s1_l2_e1.swf" menu="true" package="s1"></page>
+			<page id="p4_m1_s1_l2_e2" title="Avant de décider..." src="s1/p4_m1_s1_l2_e2.swf" menu="true" package="s1">	</page>       
+      </page>
+	  <page id="sequence1_c" title="L'essentiel de la politique commerciale" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s1_l3_e1" title="La rencontre de la cible et du produit" src="s1/p4_m1_s1_l3_e1.swf" menu="true" package="s1">	
+				<asset id="son1" src="s1/sons/p4_m1_s1_l3_e1_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s1_l3_e3" title="A votre avis" src="s1/p4_m1_s1_l3_e3.swf" menu="true" package="s1">	
+				<asset id="popup1" src="s1/popup/popup_s1_l3_e3.swf"/>
+			</page>
+			<page id="p4_m1_s1_l3_e4" title="Les 3 raisons qui motivent un achat" src="s1/p4_m1_s1_l3_e4.swf" menu="true" package="s1">	
+				<asset id="son1" src="s1/sons/p4_m1_s1_l3_e3_son1_fr.mp3" preload="false" />				
+			</page>
+			<page id="p4_m1_s1_l3_e5" title="Les 4 P" src="s1/p4_m1_s1_l3_e5.swf" menu="true" package="s1">
+				<asset id="son1" src="s1/sons/p4_m1_s1_l3_e4_son1_fr.mp3" preload="false" />
+				<asset id="son2" src="s1/sons/p4_m1_s1_l3_e4_son2_fr.mp3" preload="false" />
+				<asset id="son3" src="s1/sons/p4_m1_s1_l3_e4_son3_fr.mp3" preload="false" />				
+			</page>
+			<page id="p4_m1_s1_l3_e6" title="A votre avis" src="s1/p4_m1_s1_l3_e6.swf" menu="true" package="s1">	</page>
+			<page id="p4_m1_s1_l3_e7" title="Synthèse" src="s1/p4_m1_s1_l3_e7.swf" menu="true" package="s1">	</page>
+			<page id="p4_m1_s1_l3_e8" title="Fin de la séquence" src="s1/p4_m1_s1_l3_e8.swf" menu="true" package="s1">	</page>
+		</page>
+    </page>
+  </page>
+</site>

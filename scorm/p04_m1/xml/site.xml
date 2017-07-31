@@ -1,0 +1,201 @@
+﻿<site title="De l'étude de marché à la politique commerciale" menu="false" assetPath="assets/" flow="preload">
+  <page id="charte" title="charte_p04" src="common/charte.swf" package="common">
+    <asset id="sonNoPreload" src="SonsNoPreload.swf" />
+    <!--page id="introCMA"  title="introModule_5" src="common/introModule.swf" menu="true" package="common">
+		<asset id="objectifs" src="common/introModule.xml" />
+		<asset id="son1" src="s1/sons/p04_m1_s1_l1_e1_son1_fr.mp3" preload="false" />
+		<asset id="son2" src="s2/sons/p4_m1_s2_l0_e1_son1_fr.mp3" preload="false" />
+		<asset id="son3" src="s3/sons/p4_m1_s3_l1_e1_son1_fr.mp3" preload="false" />
+		<asset id="son4" src="s4/sons/p4_m1_s4_l0_e1_son1_fr.mp3" preload="false" />
+		
+	</page>
+    <page id="introSequence"  title="introSequence" src="common/introSequence.swf" menu="true" package="common">
+		<asset id="objectifs" src="common/introSequence.xml" />
+		<asset id="son1" src="s1/sons/p04_m1_s1_l1_e1_son2_fr.mp3" preload="false" />
+		<asset id="son2" src="s2/sons/p4_m1_s2_l0_e1_son2_fr.mp3" preload="false" />
+		<asset id="son3" src="s3/sons/p4_m1_s3_l1_e1_son2_fr.mp3" preload="false" />
+		<asset id="son4" src="s4/sons/p4_m1_s4_l0_e1_son2_fr.mp3" preload="false" />
+		
+	</page-->
+    <page id="nav"  title="navigation" src="common/nav.swf" depth="top" menu="true" package="common">
+		<asset id="menu" title="menu" src="menu.swf"/>
+	
+											<!--<SEQUENCE 1  De l'étude de marché à la politique commerciale  >-->
+		
+	  <page id="sequence1" title="De l'étude de marché à la politique commerciale" src="common/chapitre.swf" menu="true" package="common">				
+			<page id="p4_m1_s1_l1_e2" title="Le contexte de l'offre de la demande" src="s1/p4_m1_s1_l1_e2.swf" menu="true" package="s1">
+				<asset id="son1" src="s1/sons/p4_m1_s1_l1_e2_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s1_l1_e3" title="Rappel : les composants de l'étude de marché" src="s1/p4_m1_s1_l1_e3.swf" menu="true" package="s1">
+				<asset id="son1" src="s1/sons/p4_m1_s1_l1_e3_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s1_l1_e4" title="Définition de marché " src="s1/p4_m1_s1_l1_e4.swf" menu="true" package="s1">
+				<asset id="popup1" src="s1/popup/popup_s1_l1_e4.swf"/>
+			</page>
+			<page id="p4_m1_s1_l1_e5" title="Définition de la concurrence" src="s1/p4_m1_s1_l1_e5.swf" menu="true" package="s1">
+				<asset id="popup1" src="s1/popup/popup_s1_l1_e5.swf"/>
+			</page>
+	  </page>
+      <page id="sequence1_b" title="Rappel etude de marche globale/ locale" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s1_l2_e1" title="Les deux niveaux de l’étude de marché" src="s1/p4_m1_s1_l2_e1.swf" menu="true" package="s1"></page>
+			<page id="p4_m1_s1_l2_e2" title="Avant de decider..." src="s1/p4_m1_s1_l2_e2.swf" menu="true" package="s1">	</page>       
+      </page>
+	  <page id="sequence1_c" title="L'essentiel de la politique commerciale" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s1_l3_e1" title="La rencontre de la cible et du produit" src="s1/p4_m1_s1_l3_e1.swf" menu="true" package="s1">	
+				<asset id="son1" src="s1/sons/p4_m1_s1_l3_e1_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s1_l3_e3" title="A votre avis" src="s1/p4_m1_s1_l3_e3.swf" menu="true" package="s1">	
+				<asset id="popup1" src="s1/popup/popup_s1_l3_e3.swf"/>
+			</page>
+			<page id="p4_m1_s1_l3_e4" title="Les 3 raisons qui motivent un achat" src="s1/p4_m1_s1_l3_e4.swf" menu="true" package="s1">	
+				<asset id="son1" src="s1/sons/p4_m1_s1_l3_e3_son1_fr.mp3" preload="false" />				
+			</page>
+			<page id="p4_m1_s1_l3_e5" title="Les 4 P" src="s1/p4_m1_s1_l3_e5.swf" menu="true" package="s1">
+				<asset id="son1" src="s1/sons/p4_m1_s1_l3_e4_son1_fr.mp3" preload="false" />
+				<asset id="son2" src="s1/sons/p4_m1_s1_l3_e4_son2_fr.mp3" preload="false" />
+				<asset id="son3" src="s1/sons/p4_m1_s1_l3_e4_son3_fr.mp3" preload="false" />				
+			</page>
+			<page id="p4_m1_s1_l3_e6" title="A votre avis" src="s1/p4_m1_s1_l3_e6.swf" menu="true" package="s1">	</page>
+			<page id="p4_m1_s1_l3_e7" title="Synthèse" src="s1/p4_m1_s1_l3_e7.swf" menu="true" package="s1">	</page>
+			<page id="p4_m1_s1_l3_e8" title="Fin de la séquence" src="s1/p4_m1_s1_l3_e8.swf" menu="true" package="s1">	</page>
+		</page>
+	
+											<!--<SEQUENCE 2  De l'étude de marché à la politique commerciale >-->
+		
+		<page id="sequence2" title="Approfondir l'analyse de la cible et l'appliquer" src="common/chapitre.swf" menu="true" package="common">		
+			<page id="p04_m1_s2_l1_e1" title="Condition sine qua none" src="s2/p04_m1_s2_l1_e1.swf" menu="true" package="s2">
+				<asset id="son1" src="s2/sons/p4_m1_s2_l1_e1_son1_fr.mp3" preload="false" />
+				<asset id="son2" src="s2/sons/p4_m1_s2_l1_e1_son2_fr.mp3" preload="false" />
+			</page>
+			<page id="p04_m1_s2_l1_e2" title="La segmentation : c’est quoi ?" src="s2/p04_m1_s2_l1_e2.swf" menu="true" package="s2">
+				<asset id="son1" src="s2/sons/p4_m1_s2_l1_e2_son1_fr.mp3" preload="false" />
+				<asset id="son2" src="s2/sons/p4_m1_s2_l1_e2_son2_fr.mp3" preload="false" />
+			</page>
+			<page id="p04_m1_s2_l1_e3" title="La segmentation : comment ?" src="s2/p04_m1_s2_l1_e3.swf" menu="true" package="s2"></page>
+			<page id="p04_m1_s2_l1_e4" title="La segmentation : comment ?" src="s2/p04_m1_s2_l1_e4.swf" menu="true" package="s2"></page>
+	  </page>
+      <page id="sequence2_b" title="Prévalence du client sur le produit" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p04_m1_s2_l2_e1" title="La règle d'or" src="s2/p04_m1_s2_l2_e1.swf" menu="true" package="s2"></page>
+			<page id="p04_m1_s2_l2_e2" title="CA et clients" src="s2/p04_m1_s2_l2_e2.swf" menu="true" package="s2">	</page> 
+			<page id="p4_m1_s2_l2_e3" title="Synthèse" src="s2/p4_m1_s2_l2_e3.swf" menu="true" package="s2">	</page>
+			<page id="p4_m1_s2_l2_e4" title="Fin de séquence" src="s2/p4_m1_s2_l2_e4.swf" menu="true" package="s2">	</page>
+      </page>
+	
+											<!--<SEQUENCE 3  Mix-marketing : produit et prix  >-->
+	
+	  <page id="sequence3" title="La gamme" src="common/chapitre.swf" menu="true" package="common">				
+			<page id="p4_m1_s3_l1_e2" title="Rappel : le mix marketing" src="s3/p4_m1_s3_l1_e2.swf" menu="true" package="s3">		</page>
+			<page id="p4_m1_s3_l1_e3" title="Un produit en langage commercial, c’est :" src="s3/p4_m1_s3_l1_e3.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l1_e4" title="Dimension d'une gamme de produit" src="s3/p4_m1_s3_l1_e4.swf" menu="true" package="s3">
+				<asset id="son1" src="s3/sons/p4_m1_s3_l1_e4_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s3_l1_e5" title="Avantages d'une gamme large / réduite" src="s3/p4_m1_s3_l1_e5.swf" menu="true" package="s3">
+					<asset id="popup1" src="s3/popup/popup_s3_l1_e5.swf"/>
+			</page>
+			<page id="p4_m1_s3_l1_e6" title="A votre avis" src="s3/p4_m1_s3_l1_e6.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l1_e7" title="La matrice produit client" src="s3/p4_m1_s3_l1_e7.swf" menu="true" package="s3"></page>
+	  </page>
+      <page id="sequence3_b" title="Les produits" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s3_l2_e1" title="Les cycles de vie d'un produit" src="s3/p4_m1_s3_l2_e1.swf" menu="true" package="s3">
+				<asset id="son1" src="s3/sons/p4_m1_s3_l2_e1_son1_fr.mp3" preload="false" />
+				<asset id="son2" src="s3/sons/p4_m1_s3_l2_e1_son2_fr.mp3" preload="false" />
+				<asset id="popup1" src="s3/popup/popup_s3_l2_e1.swf"/>
+			</page>
+			<page id="p4_m1_s3_l2_e2" title="Les cycles de vie d'un produit 2" src="s3/p4_m1_s3_l2_e2.swf" menu="true" package="s3">
+				<asset id="son1" src="s3/sons/p4_m1_s3_l2_e2_son1_fr.mp3" preload="false" />
+			</page> 
+			<page id="p4_m1_s3_l2_e3" title="Stratégie d'entreprise" src="s3/p4_m1_s3_l2_e3.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l2_e4" title="Stratégie d'entreprise 2" src="s3/p4_m1_s3_l2_e4.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l2_e5" title="Synthèse" src="s3/p4_m1_s3_l2_e5.swf" menu="true" package="s3"></page>
+      </page>
+	  <page id="sequence3_c" title="Le prix" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s3_l3_e1" title="Les décisions à prendre en fonction du cycle de vie" src="s3/p4_m1_s3_l3_e1.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l3_e2" title="A votre avis" src="s3/p4_m1_s3_l3_e2.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l3_e3" title="Le prix psychologique" src="s3/p4_m1_s3_l3_e3.swf" menu="true" package="s3">	
+				<asset id="popup1" src="s3/popup/popup_s3_l3_e3.swf"/>
+			</page>
+			<page id="p4_m1_s3_l3_e4" title="Analyser les prix pratiqués par la concurrence" src="s3/p4_m1_s3_l3_e4.swf" menu="true" package="s3">
+					<asset id="son1" src="s3/sons/p4_m1_s3_l3_e4_son1_fr.mp3" preload="false" />
+					<asset id="popup1" src="s3/popup/popup_s3_l3_e4.swf"/>
+			</page>
+			<page id="p4_m1_s3_l3_e5" title="Le coût de revient" src="s3/p4_m1_s3_l3_e5.swf" menu="true" package="s3">	
+					<asset id="son1" src="s3/sons/p4_m1_s3_l3_e5_son1_fr.mp3" preload="false" />
+					<asset id="popup1" src="s3/popup/popup_s3_l3_e5.swf"/>
+			</page>
+			<page id="p4_m1_s3_l3_e6" title="Prendre des descisions commerciales" src="s3/p4_m1_s3_l3_e6.swf" menu="true" package="s3"></page>
+			<page id="p4_m1_s3_l3_e7" title="Récapitulons" src="s3/p4_m1_s3_l3_e7.swf" menu="true" package="s3">	</page>
+			<page id="p4_m1_s3_l3_e8" title="Synthèse" src="s3/p4_m1_s3_l3_e8.swf" menu="true" package="s3">	</page>
+			<page id="p4_m1_s3_l3_e9" title="Fin de la sequence" src="s3/p4_m1_s3_l3_e9.swf" menu="true" package="s3">	</page>
+		</page>
+			
+											<!--<SEQUENCE 4  Mix-Marketing : Distribution et Communication >-->
+	
+	  <page id="sequence4" title="La distribution" src="common/chapitre.swf" menu="true" package="common">				
+			<page id="p4_m1_s4_l1_e1" title="Rappel : le mix-marketing" src="s4/p4_m1_s4_l1_e1.swf" menu="true" package="s4">
+					<asset id="son1" src="s4/sons/p4_m1_s4_l1_e1_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s4_l1_e2" title="Les circuits de distribution" src="s4/p4_m1_s4_l1_e2.swf" menu="true" package="s4">
+					<asset id="son1" src="s4/sons/p4_m1_s4_l1_e2_son1_fr.mp3" preload="false" />
+					<asset id="son2" src="s4/sons/p4_m1_s4_l1_e2_son2_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s4_l1_e3" title="Les coûts générés par la distribution" src="s4/p4_m1_s4_l1_e3.swf" menu="true" package="s4">
+					<asset id="popup1" src="s4/popup/popup_s4_l1_e3.swf"/>
+			</page>
+			<page id="p4_m1_s4_l1_e4" title="De l'entreprise vers le client : Force de vente" src="s4/p4_m1_s4_l1_e4.swf" menu="true" package="s4"></page>			
+	  </page>
+      <page id="sequence4_b" title="Quelle communication" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s4_l2_e1" title="Aller à l’encontre de mes clients" src="s4/p4_m1_s4_l2_e1.swf" menu="true" package="s4">
+					<asset id="son1" src="s4/sons/p4_m1_s4_l2_e1_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s4_l2_e2" title="La com’ : vue d’ensemble" src="s4/p4_m1_s4_l2_e2.swf" menu="true" package="s4">
+					<asset id="son1" src="s4/sons/p4_m1_s4_l2_e2_son1_fr.mp3" preload="false" />
+			</page> 
+			<page id="p4_m1_s4_l2_e3" title="Les éléments constitutifs de l’identité visuelle" src="s4/p4_m1_s4_l2_e3.swf" menu="true" package="s4"></page>
+			<page id="p4_m1_s4_l2_e4" title="A votre avis" src="s4/p4_m1_s4_l2_e4.swf" menu="true" package="s4"></page>			
+      </page>
+	  <page id="sequence4_c" title="La Communication Hors Media" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s4_l3_e1" title="Distinguer média et hors média" src="s4/p4_m1_s4_l3_e1.swf" menu="true" package="s4">
+					<asset id="son1" src="s4/sons/p4_m1_s4_l3_e1_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s4_l3_e2" title="Jouez !" src="s4/p4_m1_s4_l3_e2.swf" menu="true" package="s4">
+					<asset id="son1" src="s4/sons/p4_m1_s4_l3_e2_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s4_l3_e3" title="Fichier Client" src="s4/p4_m1_s4_l3_e3.swf" menu="true" package="s4">
+					<asset id="son1" src="s4/sons/p4_m1_s4_l3_e3_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s4_l3_e4" title="Le marketing direct dans la politique commerciale" src="s4/p4_m1_s4_l3_e4.swf" menu="true" package="s4">
+					<asset id="son1" src="s4/sons/p4_m1_s4_l3_e4_son1_fr.mp3" preload="false" />
+			</page>
+			<page id="p4_m1_s4_l3_e5" title="A votre avis" src="s4/p4_m1_s4_l3_e5.swf" menu="true" package="s4">	</page>
+			<page id="p4_m1_s4_l3_e6" title="A votre avis" src="s4/p4_m1_s4_l3_e6.swf" menu="true" package="s4">
+					<asset id="son1" src="s4/sons/p4_m1_s4_l3_e6_son1_fr.mp3" preload="false" />
+					<asset id="popup1" src="s4/popup/popup_s4_l3_e6.swf"/>
+			</page>
+			<page id="p4_m1_s4_l3_e7" title="Votre plaquette commerciale" src="s4/p4_m1_s4_l3_e7.swf" menu="true" package="s4">	</page>
+			<page id="p4_m1_s4_l3_e8" title="Avantages et inconvénients du mailing" src="s4/p4_m1_s4_l3_e8.swf" menu="true" package="s4">	</page>
+			<page id="p4_m1_s4_l3_e9" title="A votre avis" src="s4/p4_m1_s4_l3_e9.swf" menu="true" package="s4"></page>
+			<page id="p4_m1_s4_l3_e10" title="Autres moyens de communication hors média" src="s4/p4_m1_s4_l3_e10.swf" menu="true" package="s4">
+					<asset id="son1" src="s4/sons/p4_m1_s4_l3_e10_son1_fr.mp3" preload="false" />
+			</page>
+		</page>
+		<page id="sequence4_d" title="La Communication Média" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s4_l4_e1" title="La presse écrite" src="s4/p4_m1_s4_l4_e1.swf" menu="true" package="s4"></page>
+			<page id="p4_m1_s4_l4_e2" title="S’adresser à la presse écrite : comment faire ?" src="s4/p4_m1_s4_l4_e2.swf" menu="true" package="s4"></page> 
+			<page id="p4_m1_s4_l4_e3" title="La radio" src="s4/p4_m1_s4_l4_e3.swf" menu="true" package="s4"></page>
+			<page id="p4_m1_s4_l4_e4" title="La communication média : Synthèse" src="s4/p4_m1_s4_l4_e4.swf" menu="true" package="s4"></page>			
+      </page>
+	  <page id="sequence4_e" title="Suivi des actions" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s4_l5_e1" title="Le plan de communication" src="s4/p4_m1_s4_l5_e1.swf" menu="true" package="s4"></page>
+			<page id="p4_m1_s4_l5_e1b" title="Le plan de communication 2" src="s4/p4_m1_s4_l5_e1b.swf" menu="true" package="s4"></page> 
+			<page id="p4_m1_s4_l5_e3" title="Etude de cas" src="s4/p4_m1_s4_l5_e3.swf" menu="true" package="s4"></page>						
+      </page>
+	   <page id="sequence4_f" title="Synthèse" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p4_m1_s4_l5_e4" title="Synthèse" src="s4/p4_m1_s4_l5_e4.swf" menu="true" package="s4"></page>
+			<page id="p4_m1_s4_l5_e5" title="Fin de la séquence" src="s4/p4_m1_s4_l5_e5.swf" menu="true" package="s4"></page> 								
+      </page>
+    </page>
+	<page id="doc1" src="assets/s4/popup/identite_visuelle_10_questions.pdf" />
+	<page id="doc2" src="assets/s4/popup/Dossier_presse.pdf" />
+	<page id="doc3" src="assets/s4/popup/plan_de_communication.pdf" />
+  </page>
+</site>

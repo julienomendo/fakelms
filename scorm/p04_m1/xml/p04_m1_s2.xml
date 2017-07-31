@@ -1,0 +1,39 @@
+﻿<site title="La cible" menu="false" assetPath="assets/" flow="preload">
+  <page id="charte" title="charte_p04" src="common/charte.swf" package="common">
+    <asset id="sonNoPreload" src="SonsNoPreload.swf" />
+    <!--page id="introCMA"  title="introModule_5" src="common/introModule.swf" menu="true" package="common">
+		<asset id="objectifs" src="common/introModule.xml" />
+		<asset id="son1" src="s2/sons/p4_m1_s2_l0_e1_son1_fr.mp3" preload="false" />		
+	</page>
+    <page id="introSequence"  title="introSequence" src="common/introSequence.swf" menu="true" package="common">
+		<asset id="objectifs" src="common/introSequence2.xml" />
+		<asset id="son1" src="s2/sons/p4_m1_s2_l0_e1_son2_fr.mp3" preload="false" />		
+	</page-->
+    <page id="nav"  title="navigation" src="common/nav.swf" depth="top" menu="true" package="common">
+		<asset id="menu" title="menu" src="menu.swf"/>
+	
+											<!--<SEQUENCE 2  De l'étude de marché à la politique commerciale >-->
+		
+		<page id="sequence2" title="Approfondir l'analyse de la cible et l'appliquer" src="common/chapitre.swf" menu="true" package="common">		
+			<page id="p04_m1_s2_l1_e1" title="Condition sine qua none" src="s2/p04_m1_s2_l1_e1.swf" menu="true" package="s2">
+				<asset id="son1" src="s2/sons/p4_m1_s2_l1_e1_son1_fr.mp3" preload="false" />
+				<asset id="son2" src="s2/sons/p4_m1_s2_l1_e1_son2_fr.mp3" preload="false" />
+			</page>
+			<page id="p04_m1_s2_l1_e2" title="La segmentation : c’est quoi ?" src="s2/p04_m1_s2_l1_e2.swf" menu="true" package="s2">
+				<asset id="son1" src="s2/sons/p4_m1_s2_l1_e2_son1_fr.mp3" preload="false" />
+				<asset id="son2" src="s2/sons/p4_m1_s2_l1_e2_son2_fr.mp3" preload="false" />
+			</page>
+			<page id="p04_m1_s2_l1_e3" title="La segmentation : comment ?" src="s2/p04_m1_s2_l1_e3.swf" menu="true" package="s2"></page>
+			<page id="p04_m1_s2_l1_e4" title="La segmentation : comment ?" src="s2/p04_m1_s2_l1_e4.swf" menu="true" package="s2"></page>
+	  </page>
+      <page id="sequence2_b" title="Prévalence du client sur le produit" menu="true" src="common/chapitre.swf" package="common">
+			<page id="p04_m1_s2_l2_e1" title="La règle d'or" src="s2/p04_m1_s2_l2_e1.swf" menu="true" package="s2"></page>
+			<page id="p04_m1_s2_l2_e2" title="CA et clients" src="s2/p04_m1_s2_l2_e2.swf" menu="true" package="s2">	</page> 
+			<page id="p4_m1_s2_l2_e3" title="Synthèse" src="s2/p4_m1_s2_l2_e3.swf" menu="true" package="s2">	</page>
+			<page id="p4_m1_s2_l2_e4" title="Fin de séquence" src="s2/p4_m1_s2_l2_e4.swf" menu="true" package="s2">	</page>
+      </page>
+	
+											
+    </page>
+  </page>
+</site>
