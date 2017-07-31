@@ -2,17 +2,49 @@
 <head>
     <title>Fake LMS by JST</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/fakescorm12.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>FAKE LMS</h1>
+                <p>Attention, g&eacute;n&eacute;ralement seule les fichiers commencant par P et E sont des fichiers de s&eacute;quence SCORM sur le SPI.<br>
+                ATTENTION, si les s&eacute;quences sont configur&eacute;es pour n'envoyer leurs r&eacute;sultats qu'au moment o&ugrave; l'apprenant quitte la page, alors vous risquez de ne pas voir apparaitre la popup de debug qui remplace l'enregistrement d'un vrai LMS.</p>
+                <form action="?" method="get">
+                    <select id="scorm_seq_file" name="scorm_seq_file">
+                        {{scorm_list}}
+                    </select>
 
-    <h1>FAKE LMS</h1>
-    <iframe style="width:100%;height:90%">
-            src="scorm/p04_m1/p04_m1_s1.html"
-    ></iframe>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" id="log">
+                <button id="askDataInfos">Check Data set to LMS</button>
+            </div>
+            <div class="col-md-9">
+                <iframe style="width:100%;height:70%"
+                        src="{{scorm_seq_file}}"
+                ></iframe>
+            </div>
+        </div>
+    </div>
+<script>
+    $('document').ready(function(){
+    	$('#scorm_seq_file').change(function(){
 
+    		console.log(this.value);
+    		$(this).parents('form').submit();
+        });
+    	$('#askDataInfos').click(function(){
+    		window.API.LMSCommit();
+        });
+    });
+</script>
 </body>
 </html>
